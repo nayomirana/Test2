@@ -312,7 +312,7 @@
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#geometric_rmse -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#geometric_rmse">
+    <owl:DatatypeProperty rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#geometric_rmse">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/dqv#value"/>
     </owl:DatatypeProperty>
     
@@ -320,7 +320,7 @@
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#geometric_x_bias -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#geometric_x_bias">
+    <owl:DatatypeProperty rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#geometric_x_bias">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/dqv#value"/>
     </owl:DatatypeProperty>
     
@@ -328,7 +328,7 @@
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#geometric_x_stddev -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#geometric_x_stddev">
+    <owl:DatatypeProperty rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#geometric_x_stddev">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/dqv#value"/>
     </owl:DatatypeProperty>
     
@@ -336,7 +336,7 @@
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#geometric_y_bias -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#geometric_y_bias">
+    <owl:DatatypeProperty rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#geometric_y_bias">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/dqv#value"/>
     </owl:DatatypeProperty>
     
@@ -344,7 +344,7 @@
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#geometric_y_stddev -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#geometric_y_stddev">
+    <owl:DatatypeProperty rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#geometric_y_stddev">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/dqv#value"/>
     </owl:DatatypeProperty>
     
@@ -352,7 +352,7 @@
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#measurement_absolute -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#measurement_absolute">
+    <owl:DatatypeProperty rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#measurement_absolute">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/dqv#value"/>
     </owl:DatatypeProperty>
     
@@ -360,7 +360,7 @@
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#measurement_relative -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#measurement_relative">
+    <owl:DatatypeProperty rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#measurement_relative">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/dqv#value"/>
     </owl:DatatypeProperty>
     
@@ -543,7 +543,7 @@
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#STACAccuracy -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#STACAccuracy">
+    <owl:Class rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#STACAccuracy">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/dqv#Metric"/>
         <opla-sd:entityPosition>
             <rdf:Description>
@@ -830,7 +830,7 @@
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#ISO_Accuracy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#ISO_Accuracy">
+    <owl:NamedIndividual rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#ISO_Accuracy">
         <rdf:type rdf:resource="http://purl.org/eis/vocab/daq#Dimension"/>
     </owl:NamedIndividual>
     
@@ -838,9 +838,9 @@
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#bias_measurement -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#bias_measurement">
+    <owl:NamedIndividual rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#bias_measurement">
         <rdf:type rdf:resource="http://www.w3.org/ns/dqv#QualityMeasurement"/>
-        <dqv:isMeasurementOf rdf:resource="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#geometric_bias"/>
+        <dqv:isMeasurementOf rdf:resource="https://github.com/nayomirana/Test2/edit/main/Accuracy#geometric_bias"/>
         <accuracy:geometric_x_bias rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</accuracy:geometric_x_bias>
         <accuracy:geometric_y_bias rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</accuracy:geometric_y_bias>
         <dqv:expectedDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#anySimpleType"></dqv:expectedDataType>
@@ -850,27 +850,27 @@
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#geometric_bias -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#geometric_bias">
-        <rdf:type rdf:resource="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#STACAccuracy"/>
-        <dqv:inDimension rdf:resource="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#ISO_Accuracy"/>
+    <owl:NamedIndividual rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#geometric_bias">
+        <rdf:type rdf:resource="https://github.com/nayomirana/Test2/edit/main/Accuracy#STACAccuracy"/>
+        <dqv:inDimension rdf:resource="https://github.com/nayomirana/Test2/edit/main/Accuracy#ISO_Accuracy"/>
     </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#rel_abs_measurement -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#rel_abs_measurement">
-        <rdf:type rdf:resource="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#STACAccuracy"/>
-        <dqv:inDimension rdf:resource="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#ISO_Accuracy"/>
+    <owl:NamedIndividual rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#rel_abs_measurement">
+        <rdf:type rdf:resource="https://github.com/nayomirana/Test2/edit/main/Accuracy#STACAccuracy"/>
+        <dqv:inDimension rdf:resource="https://github.com/nayomirana/Test2/edit/main/Accuracy#ISO_Accuracy"/>
     </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#rel_abs_quality_measurement -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#rel_abs_quality_measurement">
+    <owl:NamedIndividual rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#rel_abs_quality_measurement">
         <rdf:type rdf:resource="http://www.w3.org/ns/dqv#QualityMeasurement"/>
-        <dqv:isMeasurementOf rdf:resource="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#rel_abs_measurement"/>
+        <dqv:isMeasurementOf rdf:resource="https://github.com/nayomirana/Test2/edit/main/Accuracy#rel_abs_measurement"/>
         <accuracy:measurement_absolute rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.02</accuracy:measurement_absolute>
         <accuracy:measurement_relative rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.01</accuracy:measurement_relative>
         <dqv:expectedDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#anySimpleType"></dqv:expectedDataType>
@@ -880,18 +880,18 @@
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#rmse -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#rmse">
-        <rdf:type rdf:resource="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#STACAccuracy"/>
-        <dqv:inDimension rdf:resource="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#ISO_Accuracy"/>
+    <owl:NamedIndividual rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#rmse">
+        <rdf:type rdf:resource="https://github.com/nayomirana/Test2/edit/main/Accuracy#STACAccuracy"/>
+        <dqv:inDimension rdf:resource="https://github.com/nayomirana/Test2/edit/main/Accuracy#ISO_Accuracy"/>
     </owl:NamedIndividual>
     
 
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#rmse_measurement -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#rmse_measurement">
+    <owl:NamedIndividual rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#rmse_measurement">
         <rdf:type rdf:resource="http://www.w3.org/ns/dqv#QualityMeasurement"/>
-        <dqv:isMeasurementOf rdf:resource="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#rmse"/>
+        <dqv:isMeasurementOf rdf:resource="https://github.com/nayomirana/Test2/edit/main/Accuracy#rmse"/>
         <accuracy:geometric_rmse rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</accuracy:geometric_rmse>
         <dqv:expectedDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#anySimpleType"></dqv:expectedDataType>
     </owl:NamedIndividual>
@@ -900,9 +900,9 @@
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#std_dev_measurement -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#std_dev_measurement">
+    <owl:NamedIndividual rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#std_dev_measurement">
         <rdf:type rdf:resource="http://www.w3.org/ns/dqv#QualityMeasurement"/>
-        <dqv:isMeasurementOf rdf:resource="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#std_deviation"/>
+        <dqv:isMeasurementOf rdf:resource="https://github.com/nayomirana/Test2/edit/main/Accuracy#std_deviation"/>
         <accuracy:geometric_x_stddev rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</accuracy:geometric_x_stddev>
         <accuracy:geometric_y_stddev rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</accuracy:geometric_y_stddev>
         <dqv:expectedDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#anySimpleType"></dqv:expectedDataType>
@@ -912,9 +912,9 @@
 
     <!-- http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#std_deviation -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#std_deviation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#STACAccuracy"/>
-        <dqv:inDimension rdf:resource="http://www.semanticweb.org/nayomiranamuka/ontologies/2024/5/accuracy#ISO_Accuracy"/>
+    <owl:NamedIndividual rdf:about="https://github.com/nayomirana/Test2/edit/main/Accuracy#std_deviation">
+        <rdf:type rdf:resource="https://github.com/nayomirana/Test2/edit/main/Accuracy#STACAccuracy"/>
+        <dqv:inDimension rdf:resource="https://github.com/nayomirana/Test2/edit/main/Accuracy#ISO_Accuracy"/>
     </owl:NamedIndividual>
     
 
